@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<!--关键字+标题+描述--start-->
+        <title>{dede:global.cfg_webname/}</title>
+        <meta name="description" content="{dede:global.cfg_description/}" />
+        <meta name="keywords" content="{dede:global.cfg_keywords/}" />	
+        <!--关键字+标题+描述--end-->
+        <meta name="Author" content="AdminBuy.Cn" />
+		<link href="/style/css/css.css" rel="stylesheet" type="text/css" />
+		<link href="/style/css/style.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" charset="UTF-8" src="/style/js/jquery.min.js"></script>
+        <script type="text/javascript" charset="UTF-8" src="/style/js/function.js"></script>
+		<script type="text/javascript" charset="UTF-8" src="/style/js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" charset="UTF-8" src="/style/js/jquery.db_tabmotionbanner.min.js"></script>
+    </head>
+<body>
+<!--top-->
+{dede:include filename="head.htm"/}
+
+<div class="banner">
+	<div class="DB_tab25">
+	<ul class="DB_bgSet">
+     <li style="background:url('/style/images/5482701406720.jpg') no-repeat 50% 0"></li>
+     <li style="background:url('/style/images/5486b3e123350.jpg') no-repeat 50% 0"></li>
+	</ul>
+	<ul class="DB_imgSet">
+		<li></li>
+		<li></li>
+	</ul>
+	<div class="DB_menuWrap">
+		<ul class="DB_menuSet">
+			<li><img src="/style/images/btn_off.png" alt=""/></li>
+			<li><img src="/style/images/btn_off.png" alt=""/></li>
+		</ul>
+	</div>
+</div>
+<script type="text/javascript">
+$('.DB_tab25').DB_tabMotionBanner({
+	key:'b28551',
+	autoRollingTime:3000,                            
+	bgSpeed:500,
+	motion:{
+		DB_1_1:{left:-50,opacity:0,speed:1000,delay:500},
+		DB_1_2:{left:-50,opacity:0,speed:1000,delay:1000},
+		DB_1_3:{left:100,opacity:0,speed:1000,delay:1500},
+		
+		DB_2_1:{top:50,opacity:0,speed:1000,delay:500},
+		DB_2_2:{top:50,opacity:0,speed:1000,delay:1000},
+		DB_2_3:{left:100,opacity:0,speed:1000,delay:1500},
+		
+		DB_3_1:{left:-50,opacity:0,speed:1000,delay:500},
+		DB_3_2:{top:50,opacity:0,speed:1000,delay:1000},
+		DB_3_3:{left:100,opacity:0,speed:1000,delay:1500},
+		
+		DB_4_1:{left:-50,opacity:0,speed:1000,delay:500},
+		DB_4_2:{left:-50,opacity:0,speed:1000,delay:1000},
+		DB_4_3:{left:-50,opacity:0,speed:1000,delay:1500},
+		DB_4_4:{left:-50,opacity:0,speed:1000,delay:2000},
+		DB_4_5:{left:100,opacity:0,speed:1000,delay:3000},
+		
+		end:null
+	}
+})
+</script>
+</div>
+<div class="mains">
+    <div class="main1">
+        <div class="main1_1">
+            <div class="main1_11">
+               <div class="main1_11_t">
+               	公司简介
+               </div> 
+               <div class="main1_11_c">
+               <p>郑州某公司成功实现了市场化改制，实现超常规跨越式发展的同时,公司坚持"人才资源是公司第一资源"、"人才兴则事业兴，人才强则实力强"、"人才是事业之本，是发展之源"的用人理念。</p>
+               </div> 
+               <div class="main1_11_b">
+                <div id="id_more">
+                    <a  href="/about/" class="ckxx_m" id="ckxx_m1" style="top:;">查看详细</a>
+                    <a  href="/about/" class="ckxx_m" id="ckxx_m2" style="top:;">查看详细</a>
+                </div>
+               </div> 
+            </div>
+            <div class="main1_12">
+            <a href="/contact/"><img src="/style/images/lxwm.jpg"></a>
+            </div>
+        </div>
+        <div class="main1_2">
+            <div id="id_more2">
+                <a  href="/job/" class="ckxx_m2" id="ckxx_m21" style="top:;">查看详细</a>
+                <a  href="/job/" class="ckxx_m2" id="ckxx_m22" style="top:;">查看详细</a>
+            </div>
+        </div>
+        <div class="main1_3">
+            <div class="main1_31">
+                <div id="id_more3">
+                    <a  href="/about/wenhua/" class="ckxx_m3" id="ckxx_m31" style="top:;">查看详细</a>
+                    <a  href="/about/wenhua/" class="ckxx_m3" id="ckxx_m32" style="top:;">查看详细</a>
+                </div>
+            </div>
+            <div class="main1_32">
+                <img src="/style/images/app01.jpg">
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="main2">
+        <div class="main2_t">
+        </div>
+		<script type="text/javascript" src="/style/js/jquery.pack.js"></script>
+        <script type="text/javascript" src="/style/js/jquery.superslide.js"></script>
+        <div class="main2_b">
+        	<div class="bd">
+        	<ul>
+            {dede:arclist row='9' titlelen='30' typeid='4'}
+                <li>
+                	<div class="main2_b_t">
+                    	<a href="[field:arcurl/]" target="_blank" >[field:title/]</a>
+                    </div>
+                    <div class="main2_b_c">
+                    	<p>[field:description function='cn_substr(@me,100)'/]...</p>
+                    </div>
+                    <div class="main2_b_b">
+                    	<a href="[field:arcurl/]" target="_blank" >查看详细</a>
+                    </div>
+                </li>
+            {/dede:arclist}
+            </ul>
+            </div>
+            <div class="hd">
+				<ul></ul>
+			</div>
+		<script type="text/javascript">
+		jQuery(".main2_b").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"leftLoop",scroll:3,vis:3});
+		</script>
+        </div>
+    </div>
+</div> 
+<!--to-top-->
+<script type="text/javascript" src="/style/js/scrolltopcontrol.js"></script>
+<!--footer-->
+{dede:include filename="foot.htm"/}
+</body>
+</html>
